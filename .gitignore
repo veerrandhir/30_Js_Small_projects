@@ -1,0 +1,6 @@
+git init 
+git add .  
+git commit -m "Commiting projects 11 " 
+git branch -M main
+git remote add origin https://github.com/veerrandhir/30_Js_Small_projects.git
+git push
