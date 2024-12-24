@@ -1,0 +1,16 @@
+*{
+    margin: 0%;
+    border: 0;
+}
+#center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 10rem;
+    width: 20rem;
+
+    background-color: rgb(20, 20, 196);
+    border: 0.2rem solid white;
+    transform: translate(-50% ,-50%);
+
+}
