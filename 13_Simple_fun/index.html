@@ -9,6 +9,26 @@
 <body>
     <div id="center">
     </div>
+    <script>
+        const rect = document.querySelector("#center")
+        const rectangleLocation = rect.getBoundingClientRect()
+        rect.addEventListener("mousemove", (details)=>{
+        const xPos = details.clientX;
+        const mousePositonInRect = Math.floor(xPos - rectangleLocation.left)
+        console.log(mousePositonInRect);
+        if(mousePositonInRect < rectangleLocation.width/2){
+            console.log(" hellooo I am in Left");
+            
+            
+        }else{
+            console.log("Hurry I move towards Right HAHAHAH");
+            // let colorRangeLeft = mapRange(0 , xpos , 0 , rectangleLocation.length/2  , mousePositonInRect)
+            // console.log(colorRange);
+        }
+        
+    })
     
+
+    </script>
 </body>
 </html>
