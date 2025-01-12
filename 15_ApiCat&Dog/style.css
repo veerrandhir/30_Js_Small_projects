@@ -1,0 +1,42 @@
+
+.body{
+    margin-top: 5rem;
+    margin-left: 50%;
+    display:block;
+    /* align-items: center; */
+    align-content: center;
+    height: 500px;
+    width: 80%;
+    background-color: rgb(191, 153, 222);
+    color: rgb(9, 3, 3);
+}
+.results{
+    display: flex;
+    height: 5px;
+    width: 3px;
+    /* background-color: burlywood; */
+    /* color: rgb(46, 28, 4); */
+}
+#dog_result{
+    margin-left: 5rem;
+    height: 9rem;
+    width: 15rem;
+    background-color: rgb(154, 217, 192);
+}
+#cat_result{
+    margin-left: 5rem;
+    
+    height: 9rem;
+    width: 15rem;
+    background-color: rgb(226, 190, 143);
+}
+.button{
+    margin-left: 5rem;
+    display: flex;
+    align-self: last baseline;
+}
+#Dog_button{
+    margin-left: 5rem;
+    align-items: bottom;
+    
+}
