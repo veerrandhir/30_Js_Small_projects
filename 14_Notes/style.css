@@ -46,12 +46,14 @@
     width: 100%;
     max-width: 500px;
     min-height: 150px;
-    background: #95c0ff;
+    background: linear-gradient(#e48a64 , #fff ,#5be069);
     color: black;
     padding: 20px;
     margin: 20px 0;
     outline: none;
-    border-radius: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    display: none;
 
 }
 .input-box img{
